@@ -181,6 +181,22 @@ namespace livrocsharp
                 }
 
 
+                // ... Conversão de dados Boxing e Unboxing
+                // variaveis com tipo de VALOR - int, float, double, decimal, bool
+                // variaveis com tipo de REFERENCIA - object, string, array
+                // int para double, texto para data, object para float e vice-versa
+
+                // boxing
+                int percentual = 10;
+                object objeto1 = percentual;
+
+                // unboxing
+                object objeto2 = 10;
+                int desconto = (int)objeto2;
+
+
+
+
 
             }
             
